@@ -1,4 +1,4 @@
-package org.example;
+package org.example.tp3.exercie1;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;

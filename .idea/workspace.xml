@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc181ae3-af78-4c97-9845-822e574b403e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tp3/exercice2/IntSumReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tp3/exercie1/TokenizerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tp3/exercie1/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tp4/exercice1/MaxTemperature.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCountTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCountTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IntSumReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tp3/exercie1/IntSumReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TokenizerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tp3/exercice2/TokenizerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tp3/exercice2/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/.part-r-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/part-r-00000" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +57,24 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/LEMSAOUI/3D Objects/4eme-annee/java/les DS JAVA/solutions des ds java Eclipse/2",
+    "last_opened_file_path": "C:/Users/LEMSAOUI/3D Objects/5eme annee ensas/big data/big-data-hadoop-spark/src/main/java/org/example/tp3/exercice2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.5059798",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LEMSAOUI\3D Objects\5eme annee ensas\big data\big-data-hadoop-spark\src\main\java\org\example\tp3\exercice2" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.word count">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
@@ -100,7 +112,7 @@
       <option name="PROGRAM_PARAMETERS" value="  src/main/resources/input/loremipsum.txt src/main/resources/out" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.tp3.exercie1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +121,12 @@
       </method>
     </configuration>
     <configuration name="word count" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.WordCount" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tp3.exercie1.WordCount" />
       <module name="wordcount" />
       <option name="PROGRAM_PARAMETERS" value="src/main/resources/input/file.txt src/main/resources/output" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.tp3.exercie1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,7 +169,7 @@
       <workItem from="1703519523781" duration="3525000" />
       <workItem from="1703528188336" duration="1128000" />
       <workItem from="1703530248631" duration="405000" />
-      <workItem from="1703540941535" duration="374000" />
+      <workItem from="1703540941535" duration="2616000" />
     </task>
     <servers />
   </component>
