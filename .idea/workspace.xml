@@ -5,24 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc181ae3-af78-4c97-9845-822e574b403e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IntSumReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TokenizerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCountTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/loremipsum.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCountTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCountTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,6 +35,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="2Zg7RX9YO1WDhm5Umll7xZJrKji" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,19 +50,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/LEMSAOUI/3D Objects/4eme-annee/java/les DS JAVA/solutions des ds java Eclipse/ExamJavaLemsaouiHamza1",
+    "last_opened_file_path": "C:/Users/LEMSAOUI/3D Objects/4eme-annee/java/les DS JAVA/solutions des ds java Eclipse/2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.5059798",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WordCountTask">
+  <component name="RunManager" selected="Application.word count">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -99,7 +97,7 @@
     <configuration name="WordCountTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.WordCountTask" />
       <module name="wordcount" />
-      <option name="PROGRAM_PARAMETERS" value="  src/main/resources/loremipsum.txt src/main/resources/out" />
+      <option name="PROGRAM_PARAMETERS" value="  src/main/resources/input/loremipsum.txt src/main/resources/out" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -130,8 +128,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordCountTask" />
         <item itemvalue="Application.word count" />
+        <item itemvalue="Application.WordCountTask" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +153,11 @@
       <workItem from="1703081748521" duration="3491000" />
       <workItem from="1703092483977" duration="2374000" />
       <workItem from="1703100193572" duration="43000" />
+      <workItem from="1703519408987" duration="7000" />
+      <workItem from="1703519523781" duration="3525000" />
+      <workItem from="1703528188336" duration="1128000" />
+      <workItem from="1703530248631" duration="405000" />
+      <workItem from="1703540941535" duration="374000" />
     </task>
     <servers />
   </component>
