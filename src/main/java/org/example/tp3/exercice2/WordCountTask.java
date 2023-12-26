@@ -1,11 +1,9 @@
-package org.example;
+package org.example.tp3.exercice2;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import scala.Tuple2;
 
 import java.util.Arrays;
@@ -13,8 +11,6 @@ import java.util.Arrays;
 import static jersey.repackaged.com.google.common.base.Preconditions.checkArgument;
 
 public class WordCountTask {
-    private static final Logger LOGGER = LoggerFactory.getLogger(WordCountTask.class);
-
     public static void main(String[] args) {
         checkArgument(args.length > 1, "Please provide the path of input file and output dir as parameters.");
         new WordCountTask().run(args[0], args[1]);
@@ -31,7 +27,16 @@ public class WordCountTask {
         JavaRDD<String> textFile = sc.textFile(inputFilePath);
         JavaPairRDD<String, Integer> counts = textFile
                 .flatMap(s -> Arrays.asList(s.split(" ")).iterator())
-                .mapToPair(word -> new Tuple2<>(word, 1))
+                .mapToPair(word -> {
+                    if(word.length()>=10) {
+                        word = "long";
+                    }else if (word.length()>=5){
+                        word = "moyen";
+                    }else {
+                        word = "word_court";
+                    }
+                    return new Tuple2<>(word, 1);
+                })
                 .reduceByKey((a, b) -> a + b);
         counts.saveAsTextFile(outputDir);
     }
